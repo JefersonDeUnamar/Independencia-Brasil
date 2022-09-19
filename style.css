@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+div{
+    background-color:green;
+    padding: 10px;
+   
+    top: 0;
+    width: 100%;
+}
+
+
+div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;   
+   
+}
+
+div ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+    display: inline-block;
+}
+
+div ul li a:hover {
+   background-color: yellow;
+    color:blue;
+    transition: all 0.5s;
+    font-style: initial;
+}
+h1{
+   
+    background-color: green;
+    color: blue;
+    margin: 60px;
+
+}
+ p{
+    text-align: center;
+   
+    margin: 70px;
+
+}
+footer {
+    background-color: green;
+    color: blue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    margin: 19px;
+    border: solid black 2px;
+}
+nav img{
+    margin: 10px;
+}
